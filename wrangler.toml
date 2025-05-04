@@ -1,0 +1,7 @@
+name = "jwt-token-worker"
+main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+[env.production.vars]
+AUD = "266ca03a57258eba7d3cef7505a2ee538ee1a3ded9ba5b57b10af6afe6379282"
+JWT_SECRET = "bc791be2-3aba-42f3-9fbf-189d18ffba91"
